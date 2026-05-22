@@ -1,5 +1,5 @@
 {
-  "name": "bh",
+  "name": "lostandfound",
   "private": true,
   "version": "1.0.0",
   "type": "module",
@@ -20,11 +20,8 @@
     "mysql2": "^3.11.3",
 
     "clsx": "^2.1.1",
-    "framer-motion": "^12.38.0",
-    "lucide-react": "^1.14.0",
-    "react": "19.2.3",
-    "react-dom": "19.2.3",
-    "react-router-dom": "^7.14.2",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
     "tailwind-merge": "^3.4.0"
   },
 
