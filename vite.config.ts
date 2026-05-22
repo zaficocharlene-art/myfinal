@@ -7,15 +7,15 @@ import { defineConfig } from "vite";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// https://vite.dev/config/
 export default defineConfig({
-  plugins: [react(), tailwindcss()], // Removed viteSingleFile
+  plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "src"),
     },
   },
   build: {
-    outDir: "dist", // Ensures the build goes to the 'dist' folder for your Express server
+    outDir: "dist",
+    emptyOutDir: true
   }
 });
